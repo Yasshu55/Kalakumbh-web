@@ -1,0 +1,102 @@
+/* 
+body{
+  text-align: center;
+} */
+
+body{
+background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+height: 100vh;
+text-align: center;
+}
+
+.landing-head-text{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+  width: 100%;
+  position: relative;
+}
+.landing-paragraph-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.join-btn{
+  font-size: 20px;
+}
+
+.landing-middle{
+  height: 100vh;
+  color: #fff;
+  background-color: #000;
+}
+
+
+
+/* FAQ */
+
+
+
+.faq-heading{
+  border-bottom: #777;
+  padding: 20px 60px;
+  text-align: center;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+color: #fff;
+}
+.hr-line{
+width: 60%;
+margin: auto;
+
+}
+
+.faq-page {
+  color: #fff;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+}
+.faq-body{
+  margin: auto;
+ width: 50%; 
+ padding: auto;
+ 
+}
+
+.active,
+.faq-page:hover {
+  background-color: #000;
+}
+/
+.faq-body {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.faq-page:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2796";
+  
+}
